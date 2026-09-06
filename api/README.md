@@ -1,7 +1,3 @@
-# backend-developer-as-final-79638-aditya
-Final Project Assignment - This repository contains the complete final project code and documentation.
-
-
 # Resource Booking System API
 
 A RESTful Resource Booking System built with Spring Boot, Java, and Spring Security. This API allows users to view available resources and manage their reservations, while administrators have full Role-Based Access Control (RBAC) to manage all resources and reservations.

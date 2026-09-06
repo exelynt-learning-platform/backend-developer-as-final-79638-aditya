@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: resource-booking-api
+
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:booking_db}?createDatabaseIfNotExist=true
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD} # Change this to your MySQL password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+# Custom JWT Properties
+application:
+  security:
+    jwt:
+      # Use a strong 256-bit+ base64 encoded string here
+      secret-key: ${JWT_SECRET}
+      expiration: ${JWT_EXPIRATION} # 24 hours in milliseconds
+
+server:
+  port: 8081

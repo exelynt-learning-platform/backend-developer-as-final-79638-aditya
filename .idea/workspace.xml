@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d53f479-fac0-45fd-a4ca-f67341ad82cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/backend-developer-as-final-79638-aditya.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/config/DatabaseSeeder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/controller/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/ReservationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/ReservationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/ResourceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/dto/ResourceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/model/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/model/ReservationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/model/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/repository/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/repository/ResourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/repository/spec/ReservationSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/service/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/booking/service/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/test/java/com/booking/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3ItOCHH3OaNY45jnxQz3GC82aCh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "backend-developer-assignment-deadline-30th-sep-2026-64051-2874",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d53f479-fac0-45fd-a4ca-f67341ad82cf" name="Changes" comment="" />
+      <created>1788580271745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788580271745</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
